@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ISIL-App-Android-Demo1</string>
+    <string name="detalle_tarea_texto_descripcion_1">Detalle de la tarea</string>
 </resources>

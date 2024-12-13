@@ -1,5 +1,6 @@
 package isil.edu.pe.desaandroid.demo1
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -16,6 +17,13 @@ class TaskAdapter(private val listaTareas: List<String>) :
 
     override fun onBindViewHolder(holder: TaskViewHolder, position: Int) {
         holder.textoTarea.text = listaTareas[position]
+        //Manejar los clicks en cada elemento de la lista
+        holder.itemView.setOnClickListener {
+            val ctx = holder.itemView.context
+            val intent = Intent(ctx, DetalleTareaActivity::class.java)
+            intent.putExtra("DETALLE_TAREA", listaTareas[position])
+            ctx.startActivity(intent)
+        }
     }
 
     override fun getItemCount() = listaTareas.size
