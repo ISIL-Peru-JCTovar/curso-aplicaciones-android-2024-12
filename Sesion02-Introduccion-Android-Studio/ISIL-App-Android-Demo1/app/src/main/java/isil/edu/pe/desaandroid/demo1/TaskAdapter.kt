@@ -1,6 +1,7 @@
 package isil.edu.pe.desaandroid.demo1
 
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
@@ -14,7 +15,7 @@ class TaskAdapter(private val listaTareas: List<String>) :
     }
 
     override fun onBindViewHolder(holder: TaskViewHolder, position: Int) {
-        holder.
+        holder.textoTarea.text = listaTareas[position]
     }
 
     override fun getItemCount() = listaTareas.size

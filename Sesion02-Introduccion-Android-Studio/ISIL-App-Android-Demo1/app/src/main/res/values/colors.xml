@@ -10,4 +10,7 @@
     <color name="colorPrimario1">#6200EE</color>
     <color name="colorPrimarioDark1">#3700B3</color>
     <color name="colorAccent1">#03DAC5</color>
+    <color name="colorPrimario2">#6200EE</color>
+    <color name="colorPrimarioDark2">#3700B3</color>
+    <color name="colorAccent2">#03DAC5</color>
 </resources>
