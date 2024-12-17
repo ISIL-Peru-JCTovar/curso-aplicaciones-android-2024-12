@@ -2,12 +2,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".activities.MainActivity">
+    android:orientation="vertical">
 
     <!-- View (Text) para el titulo de la aplicacion -->
     <TextView
@@ -45,6 +43,17 @@
         app:layout_constraintTop_toBottomOf="@id/etvTarea1" />
 
     <!-- View (Lista/Tabla) para listar tareas -->
+    <!--
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/navHostFragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:navGraph="@navigation/navigation_01">
+
+    </androidx.fragment.app.FragmentContainerView>
+    -->
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvListaTareas1"
         android:layout_width="0dp"

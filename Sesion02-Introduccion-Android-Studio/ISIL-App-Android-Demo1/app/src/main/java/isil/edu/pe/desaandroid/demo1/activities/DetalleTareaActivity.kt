@@ -1,11 +1,9 @@
-package isil.edu.pe.desaandroid.demo1
+package isil.edu.pe.desaandroid.demo1.activities
 
 import android.os.Bundle
 import android.widget.TextView
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import isil.edu.pe.desaandroid.demo1.R
 
 class DetalleTareaActivity : AppCompatActivity() {
 

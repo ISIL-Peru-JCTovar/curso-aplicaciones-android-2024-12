@@ -1,12 +1,13 @@
-package isil.edu.pe.desaandroid.demo1
+package isil.edu.pe.desaandroid.demo1.activities
 
 import android.os.Bundle
 import android.widget.*
-import androidx.activity.ComponentActivity
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import isil.edu.pe.desaandroid.demo1.R
+import isil.edu.pe.desaandroid.demo1.adapters.TaskAdapter
 
 class MainActivity : AppCompatActivity() {
 
