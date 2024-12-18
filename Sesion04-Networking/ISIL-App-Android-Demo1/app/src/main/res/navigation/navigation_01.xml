@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_01"
+    app:startDestination="@id/mainFragment">
+
+    <!-- Fragmento para visualizar el listado de tareas -->
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="isil.edu.pe.desaandroid.demo1.fragments.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_a_detalleTareaFragment"
+            app:destination="@+id/detalleTareaFragment" />
+    </fragment>
+
+    <!-- Fragmento para el detalle de la tarea -->
+    <fragment
+        android:id="@+id/detalleTareaFragment"
+        android:name="isil.edu.pe.desaandroid.demo1.fragments.DetalleTareaFragment"
+        android:label="DetalleTareaFragment"
+        tools:layout="@layout/fragment_detalle_tarea">
+        <argument
+            android:name="DETALLE_TAREA"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
