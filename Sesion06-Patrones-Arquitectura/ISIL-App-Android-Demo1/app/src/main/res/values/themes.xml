@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ISILAppAndroidDemo1" parent="Theme.AppCompat.NoActionBar" />
+    <style name="Theme.ISILAppAndroidDemo2" parent="Theme.AppCompat.Light.NoActionBar" />
+    <style name="Theme.ISILAppAndroidDemo3" parent="Theme.AppCompat.DayNight.NoActionBar" />
+
+</resources>
